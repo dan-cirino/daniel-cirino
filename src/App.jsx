@@ -1,17 +1,21 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './App.css';
-import Header from './components/Header'; // Adjust the path as needed
-import About from './components/About'; // Adjust the path as needed
-import Projects from './components/Projects'; // Adjust the path as needed
+import Projects from './components/Projects';
+import Navbar from './components/Navbar';
+import About from "./components/About.jsx";
+import Skills from "./components/Skills.jsx";
 
 function App() {
     return (
-        <>
-            <Header />
-            <About />
-            <Projects />
-        </>
+        <div className="App">
+            <Navbar />
+            <main>
+                <About />
+                <Skills />
+                <Projects />
+            </main>
+        </div>
     );
 }
 

@@ -1,0 +1,63 @@
+.navbar {
+    background-color: #3498db; /* Navbar background color */
+    padding: 1rem 2rem; /* Padding for the navbar */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between brand and links */
+    align-items: center; /* Center items vertically */
+    position: sticky; /* Stick to the top on scroll */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* High z-index to stay on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.navbar .brand {
+    font-size: 1.8rem; /* Size of the brand text */
+    font-weight: bold; /* Bold text for brand */
+    color: #ffffff; /* White text color */
+}
+
+.navbar .links {
+    display: flex; /* Flexbox layout for links */
+    align-items: center; /* Center icons vertically */
+}
+
+.navbar .links a {
+    margin-left: 1.5rem; /* Space between links */
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1rem; /* Font size for links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar .links a:hover {
+    color: #2980b9; /* Change color on hover */
+}
+
+.navbar .links i {
+    font-size: 1.2rem; /* Icon size */
+    color: #ffffff; /* White color for icons */
+    transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+.navbar .links a:hover i {
+    color: #2980b9; /* Change icon color on hover */
+}
+
+.brand {
+    font-size: 1.8rem; /* Size of the brand text */
+    font-weight: bold; /* Bold text for brand */
+    color: #ffffff; /* White text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.links a {
+    margin-left: 1rem; /* Space between icons */
+    font-size: 1.5rem; /* Adjust the icon size */
+    color: #333; /* Icon color */
+    transition: color 0.3s ease; /* Hover effect */
+}
+
+.links a:hover {
+    color: #1a73e8; /* Change color on hover */
+}
+

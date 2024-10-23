@@ -1,0 +1,59 @@
+/* Projects.css */
+
+.projects-section {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Increased size for widgets */
+    gap: 2rem; /* Space between grid items */
+}
+
+.project-card {
+    background-color: white; /* Card background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    overflow: hidden; /* Clip overflow for rounded corners */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.project-image {
+    width: 100%; /* Full width image */
+    height: 300px; /* Increased height for images */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+}
+
+.project-info {
+    padding: 1.5rem; /* Increased space inside the card */
+}
+
+.project-info h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.75rem; /* Increased title size */
+}
+
+.project-info p {
+    color: #666; /* Subtle text color for description */
+    font-size: 1rem; /* Adjusted font size for description */
+}
+
+.project-link {
+    display: inline-block; /* Make the link a block for spacing */
+    margin-top: 1rem; /* Space above the link */
+    padding: 0.75rem 1.5rem; /* Increased padding for the link */
+    background-color: #1a73e8; /* Link background color */
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.project-link:hover {
+    background-color: #155ab6; /* Darker shade on hover */
+}

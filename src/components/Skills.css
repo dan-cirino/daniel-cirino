@@ -1,0 +1,48 @@
+#skills {
+    padding: 4rem 2rem;
+    background-color: var(--accent-color); /* Soft gray for the Skills section */
+    text-align: center; /* Center text */
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column; /* Stack categories vertically */
+    align-items: center; /* Center categories */
+}
+
+.skills-category {
+    margin-bottom: 3rem; /* Space between categories */
+}
+
+.category-title {
+    font-size: 2rem; /* Font size for category titles */
+    color: var(--primary-color); /* Color for category titles */
+    margin-bottom: 1rem; /* Space below category titles */
+}
+
+.skills-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: center; /* Center the list items */
+}
+
+.skill-item {
+    background-color: var(--primary-color); /* Background for skill items */
+    color: white; /* Text color */
+    padding: 0.5rem 1rem; /* Padding for the skill item */
+    border-radius: 20px; /* Rounded corners */
+    margin: 0.5rem; /* Space between skill items */
+    transition: transform 0.2s ease; /* Transition effect */
+}
+
+.skill-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

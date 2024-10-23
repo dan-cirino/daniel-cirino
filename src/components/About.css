@@ -1,0 +1,26 @@
+#about {
+    padding: 4rem 2rem;
+    background-color: var(--secondary-color); /* Light background for the About section */
+    text-align: center; /* Center the text and image */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.about-image {
+    width: 150px; /* Set a fixed width for your image */
+    height: 150px; /* Set a fixed height to make it square */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    border-radius: 8px; /* Optional: rounded corners instead of a circle */
+    margin-bottom: 1.5rem; /* Space between image and text */
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
