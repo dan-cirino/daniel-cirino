@@ -2,7 +2,7 @@
   "name": "daniel-cirino",
   "private": false,
   "version": "0.0.0",
-  "homepage": "dan-cirino.github.io",
+  "homepage": "https://dan-cirino.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
