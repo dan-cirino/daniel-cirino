@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './App.css';
-import Projects from './components/Projects';
-import Navbar from './components/Navbar';
+import Projects from './components/Projects.jsx';
+import Navbar from './components/Navbar.jsx';
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 
